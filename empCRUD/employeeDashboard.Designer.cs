@@ -43,6 +43,7 @@
             this.welcomeText.Size = new System.Drawing.Size(411, 29);
             this.welcomeText.TabIndex = 1;
             this.welcomeText.Text = "Welcome to employee dashboard,";
+            this.welcomeText.Click += new System.EventHandler(this.welcomeText_Click);
             // 
             // label3
             // 

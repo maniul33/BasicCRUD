@@ -21,7 +21,7 @@ namespace empCRUD
 
         private void employeeDashboard_Load(object sender, EventArgs e)
         {
-            empLabel.Text = "Logged in as "+name;
+            empLabel.Text = "Logged in as "+ name.ToUpperInvariant();
         }
 
         private void logoutButton_Click(object sender, EventArgs e)
@@ -30,6 +30,11 @@ namespace empCRUD
             login l = new login();
             l.ShowDialog();
             this.Close();
+        }
+
+        private void welcomeText_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
