@@ -171,7 +171,7 @@ namespace empCRUD
 
         private bool isEmpty()
         {
-            if (string.IsNullOrEmpty(nameBox.Text) || string.IsNullOrEmpty(idBox.Text) || string.IsNullOrEmpty(salaryBox.Text) || string.IsNullOrEmpty(cityBox.Text) || string.IsNullOrEmpty(passwordBox.Text))
+            if (string.IsNullOrEmpty(nameBox.Text) || string.IsNullOrEmpty(idBox.Text) || string.IsNullOrEmpty(salaryBox.Text) || string.IsNullOrEmpty(cityBox.Text))
             {
                 MessageBox.Show("Please provide all the required informations.", "Incomplete Information", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return true;
